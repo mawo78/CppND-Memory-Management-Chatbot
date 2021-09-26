@@ -63,3 +63,7 @@ ChatBot Move Assignment Operator
 ChatBot Destructor
 ChatBot Destructor 
 ```
+
+Notes on compiling on Windows VS2019 Community:
+Add preprocessor definition: WXUSINGDLL in configuration. C++ -> Preprocessor -> Preprocessor definitions.
+Change project configuration. Linker->System->SubSystem should be Windows.
